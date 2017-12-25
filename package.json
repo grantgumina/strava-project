@@ -1,0 +1,14 @@
+{
+  "name": "strava-project",
+  "version": "1.0.0",
+  "description": "Generate Strava Heatmap Wall Art",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grant J. Gumina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
