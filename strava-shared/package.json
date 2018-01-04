@@ -1,0 +1,16 @@
+{
+  "name": "strava-shared",
+  "version": "1.0.0",
+  "description": "Strava project",
+  "main": "app.js",
+  "dependencies": {
+    "fs.promised": "^3.0.0",
+    "strava-v3": "git://github.com/grantgumina/node-strava-v3.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grant J. Gumina",
+  "license": "ISC"
+}
