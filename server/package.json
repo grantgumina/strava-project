@@ -1,15 +1,17 @@
 {
-  "name": "strava-project",
-  "version": "1.0.0",
-  "description": "Generate Strava Heatmap Wall Art",
-  "main": "index.js",
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "Grant J. Gumina",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
-    "strava-v3": "^1.14.0"
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
   }
 }
