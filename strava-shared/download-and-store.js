@@ -5,7 +5,7 @@ var fn = function getLatLongForActivityId(id) {
     return strava.streams.activity({
         id: id,
         types: 'latlng',
-        resolution: 'low'
+        resolution: 'high'
     }).then(response => {
         return response;
     }).catch(error => {
@@ -23,7 +23,7 @@ strava.athlete.listActivities({}).then(activities => {
         return r[0];
     });
 }).then(ll => {
-    fs.writeFile("json.txt", JSON.stringify(ll), function(err) {
+    fs.writeFile("data.json", JSON.stringify(ll), function(err) {
         if(err) {
             return console.log(err);
         }
